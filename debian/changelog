@@ -1,0 +1,231 @@
+cli-shell-utils (0.3.7) unstable; urgency=medium
+
+  * Full Spanish
+
+ -- anticapitalista <antix@operamail.com>  Fri, 16 Mar 2018 18:06:13 +0200
+
+cli-shell-utils (0.3.6) unstable; urgency=medium
+
+  * Only include 85% plus translated files
+
+ -- anticapitalista <antix@operamail.com>  Fri, 02 Mar 2018 18:00:01 +0200
+
+cli-shell-utils (0.3.5) unstable; urgency=medium
+
+  * Fix bug in copy-initrd-programs when --from is not used
+
+ -- anticapitalista <antix@operamail.com>  Sun, 14 Jan 2018 14:28:31 +0200
+
+cli-shell-utils (0.3.4) unstable; urgency=medium
+
+  * fix dd progress issues
+
+ -- anticapitalista <antix@operamail.com>  Thu, 21 Dec 2017 12:02:15 +0200
+
+cli-shell-utils (0.3.3) unstable; urgency=medium
+
+  * Updated German
+
+ -- anticapitalista <antix@operamail.com>  Tue, 28 Nov 2017 21:02:57 +0200
+
+cli-shell-utils (0.3.2) unstable; urgency=medium
+
+  * Updated translations
+
+ -- anticapitalista <antix@operamail.com>  Mon, 13 Nov 2017 20:08:42 +0200
+
+cli-shell-utils (0.3.1) unstable; urgency=medium
+
+  * update translations
+
+ -- anticapitalista <antix@operamail.com>  Fri, 20 Oct 2017 14:00:34 +0300
+
+cli-shell-utils (0.3.0) unstable; urgency=medium
+
+  * Localisation updates
+  * bump version
+  
+ -- anticapitalista <antix@operamail.com>  Wed, 18 Oct 2017 00:09:53 +0300
+
+cli-shell-utils (0.2.12) unstable; urgency=medium
+
+  * Update Italian translation
+
+ -- anticapitalista <antix@operamail.com>  Tue, 03 Oct 2017 00:57:38 +0300
+
+cli-shell-utils (0.2.11) unstable; urgency=medium
+
+  * Update translations
+
+ -- anticapitalista <antix@operamail.com>  Wed, 27 Sep 2017 17:33:19 +0300
+
+cli-shell-utils (0.2.10) unstable; urgency=medium
+
+  * bump version
+  * improved lt translation
+
+ -- anticapitalista <antix@operamail.com>  Fri, 25 Aug 2017 19:23:58 +0100
+
+cli-shell-utils (0.2.9) unstable; urgency=medium
+
+  * Bump version
+  * Updated locales
+
+ -- anticapitalista <antix@operamail.com>  Sat, 12 Aug 2017 11:06:57 +0100
+
+cli-shell-utils (0.2.8) unstable; urgency=medium
+
+  * Fix bugs in copy-initrd-programs (thanks Ramsey!)
+  * Bump version
+
+ -- anticapitalista <antix@operamail.com>  Mon, 31 Jul 2017 20:20:54 +0100
+
+cli-shell-utils (0.2.7) unstable; urgency=medium
+
+  * bumped version file
+
+ -- anticapitalista <antix@operamail.com>  Fri, 28 Jul 2017 00:51:58 +0100
+
+cli-shell-utils (0.2.6) unstable; urgency=medium
+
+  * Remove dmsetup from list of crypt programs. Minor tweaks.
+
+ -- anticapitalista <antix@operamail.com>  Sun, 09 Jul 2017 14:17:45 +0300
+
+cli-shell-utils (0.2.5) unstable; urgency=medium
+
+  * Add num_range() and is_num_range() for generating a range of numbers 
+
+ -- anticapitalista <antix@operamail.com>  Wed, 28 Jun 2017 13:55:46 +0300
+
+cli-shell-utils (0.2.4) unstable; urgency=medium
+
+  * Add a convenient questn() routine
+  * Be more forgiving about lines without packages 
+  * Get package marking working, start on suggested packages3
+  
+
+ -- anticapitalista <antix@operamail.com>  Tue, 06 Jun 2017 19:10:30 +0300
+
+cli-shell-utils (0.2.3) unstable; urgency=medium
+
+  * Fix some apt-* calls after testing in antiX
+  * Look for man page only when asked to. Beef up how we deal w/ man page
+
+ -- anticapitalista <antix@operamail.com>  Sat, 20 May 2017 21:39:59 +0300
+
+cli-shell-utils (0.2.2) unstable; urgency=medium
+
+  * Fix problem with 'h' for help causing default action to happen
+
+ -- anticapitalista <antix@operamail.com>  Tue, 09 May 2017 17:37:27 +0300
+
+cli-shell-utils (0.2.1) unstable; urgency=medium
+
+  * Only show command output of --verbose is used 
+
+ -- anticapitalista <antix@operamail.com>  Wed, 26 Apr 2017 20:21:39 +0300
+
+cli-shell-utils (0.2.0) unstable; urgency=medium
+
+  * Added encryption options
+
+ -- anticapitalista <antix@operamail.com>  Thu, 20 Apr 2017 13:20:58 +0300
+
+cli-shell-utils (0.1.13) unstable; urgency=medium
+
+  * fix killed with a killall live-usb-maker command
+
+ -- anticapitalista <antix@operamail.com>  Mon, 27 Mar 2017 18:17:25 +0300
+
+cli-shell-utils (0.1.12) unstable; urgency=medium
+
+  * Always do sync before umount
+
+ -- anticapitalista <antix@operamail.com>  Wed, 07 Dec 2016 18:53:01 +0200
+
+cli-shell-utils (0.1.11) unstable; urgency=medium
+
+  * Exit on errors even when triggered inside of cmd() calls
+
+ -- anticapitalista <antix@operamail.com>  Sat, 03 Dec 2016 12:40:39 +0200
+
+cli-shell-utils (0.1.10) unstable; urgency=medium
+
+  * Fix typo that made us fail to name mmcblk partitions correctly
+
+ -- anticapitalista <antix@operamail.com>  Tue, 29 Nov 2016 13:53:56 +0200
+
+cli-shell-utils (0.1.9) unstable; urgency=medium
+
+  * Unset COPY_PID after that process exits 
+
+ -- anticapitalista <antix@operamail.com>  Mon, 28 Nov 2016 18:14:41 +0200
+
+cli-shell-utils (0.1.8) unstable; urgency=medium
+
+  * Have make abort if we can't find the root directory
+
+ -- anticapitalista <antix@operamail.com>  Thu, 24 Nov 2016 23:17:33 +0200
+
+cli-shell-utils (0.1.7) unstable; urgency=medium
+
+  * Hide stty error message for when not running in terminal 
+  * Update .pot file 
+  * Fix recent bugs added to make-pot
+  * Add log_it_q() to only display to screen if not quiet to cli-shell-utils.bash
+  * Set width of progress bar to 90% of screen and make it a variable 	
+  * Add copyright notice in code
+  * Delete unused text menus
+  * Update translations after freeze
+
+ -- anticapitalista <antix@operamail.com>  Thu, 24 Nov 2016 13:23:06 +0200
+
+cli-shell-utils (0.1.6) unstable; urgency=medium
+
+  * Update makefile to work with live-usb-maker-gui
+  * Add gui_flock() and have --force=flock disable locking entirely
+  * Do my own error handling instead of using fatal() in the lib
+
+ -- anticapitalista <antix@operamail.com>  Sat, 12 Nov 2016 13:50:15 +0200
+
+cli-shell-utils (0.1.5) unstable; urgency=medium
+
+  * Add need_q(), a quiet form of the need() function in cli-shell-utils.bash file
+  * Remove a bit of unused code
+  * Bash 4.4 workround
+  * Updated translations
+  * Only exit after a forced reset config. Obey --pause as well in cli-shell-utils.bash
+
+ -- anticapitalista <antix@operamail.com>  Mon, 07 Nov 2016 12:20:20 +0200
+
+cli-shell-utils (0.1.4) unstable; urgency=medium
+
+  * Added Italian translation
+
+ -- anticapitalista <antix@operamail.com>  Mon, 31 Oct 2016 18:37:36 +0200
+
+cli-shell-utils (0.1.3) unstable; urgency=medium
+
+  * Added a simple header and footer to the generated config file 
+
+ -- anticapitalista <antix@operamail.com>  Sat, 29 Oct 2016 14:01:56 +0300
+
+cli-shell-utils (0.1.2) unstable; urgency=medium
+
+  * Add "dark" color theme 
+
+ -- anticapitalista <antix@operamail.com>  Thu, 13 Oct 2016 12:22:44 +0300
+
+cli-shell-utils (0.1.1) unstable; urgency=medium
+
+  * Correct translation comment in cli-shell-utils.bash
+  * Remove commented code
+
+ -- anticapitalista <antix@operamail.com>  Mon, 12 Oct 2016 12:02:26 +0300
+
+cli-shell-utils (0.1.0) unstable; urgency=low 
+ 
+  * Initial Release.
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 05 Oct 2016 16:52:00 +0200

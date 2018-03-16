@@ -1,0 +1,249 @@
+
+#. starting <program name>
+Starting %s
+Will use target device %s
+Create an encrypted live-usb?
+copying
+Please enter the filename
+#. What thing we are copying or cloning from: file, device or directory
+file
+#. What thing we are copying or cloning from: file, device or directory
+device
+#. Cloning only copies certain files to make a brand-new live-usb
+cloning
+#. What thing we are copying or cloning from: file, device or directory
+directory
+#. Will use source <file XYZ>
+Will use source %s
+Could not find device %s
+Customize language and timezone?
+Encryption enabled
+encrypted
+#. Ready to make live-usb on device X by <cloning|copying directory Y>
+Ready to make %s on device %s by %s
+#. final_q=$(printf "%s\n%s" "$final_q" "$(quest $"Shall we begin?")")
+Shall we begin?
+install
+You will be asked to create a passphrase during the first boot
+Will use initial passphrase %s
+Make a full-featured live-usb
+Make an encrypted full-featured live-usb
+Make a customized live-usb (includes encryption option)
+Update UUIDs on an existing live-usb
+Update boot parameters on an existing live-usb
+Reinstall legacy bootloader on an existing live-usb
+Please select what action to perform
+Please select the source for the new live-usb
+No available target usb devices were found
+Only one target usb device was found %s
+Please select the target usb device
+entire drive
+main partition
+bios partition
+uefi partition
+Already using over 90% of the device
+Do you want to change how much of the device is used?
+#. Have set the size to <13%> (1,200 MiB)
+Have set size to %s (%s MiB)
+Please select how much space to use for the live-usb partitions
+Assuming this is an encrypted live-usb
+About to encrypt device %s
+Encryption successful
+Please wait while we mount optical disc at %s
+#. Using <gpt|msdos> partitioning
+Using %s partitioning
+copy from %s to %s partition
+files: %s
+Error while copying files to main partition of live usb
+Error while copying %s files
+An error occurred unpacking the initrd
+Was unable to add all required programs to the live initrd
+Enable encryption in the live initrd
+Disable encryption in the live initrd
+#. Create syslinux directory from <boot/isolinux>
+Create syslinux directory from %s
+Not enough space on %s partition
+Less than %s MiB would remain on %s partition
+done
+#. Pause at '<Exit>'
+Exit
+The live media is not mounted
+Current running kernel is %s
+This is not a live-usb system
+Will use running live system
+The device '%s' does not appear to be a usb device
+Can't find first partition on device %s
+Device %s is not a disk partition
+Will use live-usb device %s
+No '%s' file found in any directory in '%s'
+#. Could not find '<linuxfs.new>' or '<linuxfs>' on the live-usb
+Could not find '%s' or '%s' on the live-usb
+#. Found <type> file <file-name> in directory <dir-name>
+Found %s file %s in directory %s
+Could not find initrd file: %s
+#. [a table of what was found will follow]
+Found:
+#. singular and plural: 1 total live kernel
+total live kernel
+total live kernels
+#. singular and plural
+default live kernel
+default live kernels
+#. singular and plural
+old live kernel
+old live kernels
+#. singular and plural
+total installed kernel
+total installed kernels
+#. singular and plural
+new installed kernel
+new installed kernels
+Live kernels:
+Boot kernels:
+Only one new installed kernel was found:
+New installed kernels:
+There are %s new kernels.  Only showing the most recent %s.
+No kernels were found in the boot directory
+No kernels were found in the live boot directory
+You should do a remaster before doing a kernel update
+You MUST do a remaster before doing a kernel update
+No new kernels were found
+Can only update the initrd file
+You must install a kernel and then remaster before doing a kernel update
+No new kernels were found and there's no template initrd file
+live kernel update
+#. Current kernel and New/Old kernel specs
+Current
+New
+(new)
+live kernel rollback
+Old
+live initrd update
+#. Update initrd using file <filename> [NOTE: no "%s" here!]
+Update initrd using file
+live modules update
+#. Update initrd using file <filename> [NOTE: no "%s" here!]
+Add initrd modules
+#. Ready to make the following <live kernel update>
+Ready to make the following %s
+The current Live System on %s
+The system is not a live-usb and no usb drives were detected
+Please select the system to update
+No update or rollback actions are available
+Please select an action to perform
+Update
+from
+Rollback
+to
+Update initrd using file %s
+Quit
+Did not find any new kernels in the boot directory
+Found one kernel matching the requested version %s
+Found one new kernel %s
+Please select the new kernel from this list
+kernel
+Copy initrd modules failed for kernel %s
+No modules were copied to the initrd
+Compressing ...
+#. install <filename>
+install %s
+Overwriting backup
+Target file %s does not exist
+Could not find old %s file to roll back
+#. Roll back <file-1> to <file-2>
+Roll back %s to %s
+#. "pretend mode" goes through the steps withoute altering your system
+in pretend mode
+Would you like to do a remaster now?
+Ready to restart %s
+Expected a parameter after: %s
+Suspicious argument after %s: %s
+Paused at '%s'
+#. Press <Enter> for the default entry
+#. Press <Enter> ...
+Enter
+Press <%s> to continue
+Unknown command: %s
+yes
+no
+#. Sometimes we want to use 'q' to go back to another menu instead of exiting
+#. the program.  We change the printed instructions and we also change the
+#. behavior based on a non-empty BACK_TO_MAIN string
+quit
+default
+pretend mode
+#. ------------------------------------------------------------------------------
+#. Announce to the world we are in pretend mode
+#. ------------------------------------------------------------------------------
+PRETEND MODE ENABLED
+entry
+#. Press <Enter> for the default entry
+Press <%s> for the default %s
+#. Use <h> for help, <q> to <go back to main menu>
+Use %s for help, %s to %s
+#. Use <q> to <go back to main menu>
+Use %s to %s
+Opps.  Please try again
+You must enter a number
+You must enter a number or press <Enter>
+The number '%s' is out of range
+Press '%s' again to quit
+You chose %s
+Please select the live boot directory
+You entered: %s
+Is this correct?
+(tab completion is enabled)
+%s does not appear to be a file
+Try again?
+#. Japanese: Please don't translate these: Device, Size, Filesystem, Label, Model
+Device
+Size
+Filesystem
+Label
+Model
+#. [A clone is different from a copy, with clone we make a fresh new system]
+Clone this live system
+Copy from an ISO file
+Check md5 of the file %s?
+Checking md5 ...
+Keep going anyway?
+The %s program failed!
+#. Japanese: please do not translate: File, Version, Date
+File
+#. [We will convert from kernel "From" to kernel "To"]
+#. Japanese: please don't translate: Version, Date, From, To
+Version
+Date
+From
+To
+#. Space in a drive or partition: Total = Used + Extra
+#. Japanese: please don't translate: Total, Used, Extra
+Total
+Used
+Extra
+Error
+Warning
+#. <something> took <15> seconds
+%s took %s seconds
+A %s process (using PID %s) is already running
+Please close that process before starting a new one
+Failed to obtain lock on %s
+Creating new config file %s
+Could not find program %s.  Skipping %s.
+Could not find required program '%s'
+#. The <type> directory <dir-name> is not writable
+The %s directory '%s' is not writable
+Could not find iso file %s
+Could not read iso file %s
+Could not mount iso file %s
+#. Which distro we are going to copy or clone
+Distro: %s
+#. Distro X on device Y
+Distro: %s on %s
+This script must be run as root
+#. Press <Enter> to select the highlighted <entry>
+Press %s to select the highlighted %s
+#. Use <h> for help, <r> to redraw, <q> to <go back to main menu>
+Use %s for help, %s to redraw, %s to %s
+#. Use <r> to redraw, <q> to <go back to main menu>
+Use %s to redraw, %s to %s
